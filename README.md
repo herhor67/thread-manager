@@ -32,3 +32,8 @@ int main()
 
 Possible output:
 ```1 2 1 1 2 1 2 1 1 2 1 1 2 1 1 2 3 2 2 3 2 3 2 4 3 3 4 3 4 3 4 3 3 4 3 4 4 4 4 4```
+
+Additional function arguments should be provided in `push` as an argument pack, like so:
+```C++
+push(arg1, arg2, arg3, ...)
+```
