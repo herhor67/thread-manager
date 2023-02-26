@@ -3,6 +3,7 @@ C++ thread manager, for calling a function in separate threads, with a limit of 
 Function arguments are pushed to a queue.
 Such code is guaranteed to finish in the shortest time possible, provided the arguments in the queue are ordered by execution time, descending.
 
+
 Example:
 ```C++
 #include <iostream>
@@ -43,6 +44,8 @@ Possible output:
 2 1 1 2 1 1 2 1 1 2 1 1 2 1 1 2 3 2 3 2 2 3 2 3 4 3 4 3 3 4 3 4 3 4 3 4 4 4 4 4
 6406ms
 ```
+
+
 Slowest to fastest:
 ```C++
 	[...]
